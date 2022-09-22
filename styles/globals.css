@@ -2,25 +2,37 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.general{
+  height: 100vh;  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-* {
-  box-sizing: border-box;
+.homepage{
+  position: fixed;
+  position:relative; 
+  text-align: center;
+  bottom: 200px;  color:rgb(223, 213, 213);
+  font-size:30px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.homepage-about{
+  color:rgb(223, 213, 213);
+  position: fixed;
+  position:relative; 
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homepage-sub{
+  color:rgb(223, 213, 213);
+  position:relative; 
+  text-align: left;
+  width: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
 }
