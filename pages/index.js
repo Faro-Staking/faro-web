@@ -1,6 +1,8 @@
+import Home from "../components/homepage";
 import { useEffect, useRef, useState } from 'react';
 import GLOBE from 'vanta/dist/vanta.waves.min.js';
 import * as THREE from "three";
+import Github from "../components/github";
 
 export default function Page() {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -19,10 +21,10 @@ export default function Page() {
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0x711,
-  shininess: 44.00,
+  shininess: 35.00,
   waveHeight: 31.50,
   waveSpeed: 0.25,
-  zoom: 0.65
+  zoom: 0.95
         })
       )
     }
@@ -45,6 +47,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <div>
+        <Home/>
+      </div>
     </main>
   )
 }

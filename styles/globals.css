@@ -36,3 +36,94 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:30px;
 }
+
+.button {
+  /* background-color: #4CAF50; Green */
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 15px;
+  /* margin: 4px 2px; */
+  transition-duration: 0.5s;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid black;
+  border-radius: 6px;
+  opacity: 0.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 6px;
+  opacity: 0.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 1px solid black;
+  border-radius: 6px;
+  opacity: 0.5;
+  /* padding: 12px 41px; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter{
+  color: rgb(0, 0, 0);
+  position:fixed; left:510px; bottom:300px;
+  width: 200px;
+  height: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draw{
+  color: rgb(0, 0, 0);
+  position:fixed; left:720px; bottom:300px;
+  width: 200px;
+  height: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color:rgb(223, 213, 213);
+}
+
+.soon{
+  color:rgb(223, 213, 213);
+  text-align: bottom;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  left: 20%;
+  bottom: 1000px;
+}
