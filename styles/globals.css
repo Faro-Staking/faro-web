@@ -88,6 +88,14 @@ body {
   align-items: center;
 }
 
+.button2:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 6px;
+  opacity: 0.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .enter{
   color: rgb(0, 0, 0);
   position:fixed; left:510px; bottom:300px;
