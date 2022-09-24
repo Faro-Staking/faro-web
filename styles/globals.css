@@ -43,7 +43,23 @@ body {
   /* background-color: #4CAF50; Green */
   border: none;
   color: white;
-  padding: 12px 32px;
+  padding: 30px 32px;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5%; */
+}
+
+.button-new {
+  /* background-color: #4CAF50; Green */
+  border: none;
+  color: white;
+  padding: 20px 32px;
   display: inline-block;
   font-size: 15px;
   transition-duration: 0.5s;

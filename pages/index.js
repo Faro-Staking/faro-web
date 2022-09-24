@@ -48,7 +48,7 @@ export default function Page() {
           <div class="std-margin">
             <small>Coming soon...</small>
           </div>
-          <div class="button">
+          <div class="button-new">
             <Link href='Faro-Economic-Whitepaper.pdf'>
               <button class="button button1 center" onclick="location.href='Faro-Economic-Whitepaper.pdf'"><b>Economic Whitepaper</b></button>
             </Link>
@@ -59,9 +59,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* <div>
-        <Home />
-      </div> */}
     </main>
   )
 }
