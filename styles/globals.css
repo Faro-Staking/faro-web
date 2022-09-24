@@ -63,7 +63,6 @@ body {
   display: inline-block;
   font-size: 15px;
   transition-duration: 0.5s;
-  cursor: pointer;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   justify-content: center;
