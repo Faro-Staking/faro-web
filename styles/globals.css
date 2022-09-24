@@ -14,12 +14,13 @@ body {
 }
 
 .homepage{
-  position:relative; 
+  position:absolute; 
+  top:38%;
   text-align: center;
   bottom: 200px;  
   color:rgb(223, 213, 213);
   font-size:30px;
-  margin-top: 10%;
+  /* margin-top: 0%; */
 }
 
 .homepage-about{
